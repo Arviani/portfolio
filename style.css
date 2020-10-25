@@ -103,7 +103,7 @@ body:before {
   letter-spacing: 3px;
   color: rgba(255, 255, 255, 0.932);
   text-transform: uppercase;
-  margin: 50px 80px;  
+  margin: 30px 80px;  
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
   background: initial;
@@ -383,7 +383,7 @@ a{
 
 
 .box{
-  margin-bottom: 1.2rem !important;
+  margin-bottom: 1.2rem ;
   
   }
 
@@ -724,12 +724,6 @@ a{
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) { 
   
-  .bg-1{
-    width: 100%;
-  }
-
-
-
  }
 
 /* Medium devices (desktops, 992px and up) */
@@ -737,3 +731,60 @@ a{
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) { ... }
+
+
+
+
+@media all and (min-width: 360px) and (max-width: 640px){
+
+  .bg-1{
+  width: 360px;
+
+  }
+
+  .about-hed{
+    padding-top: 50px;
+    font-size: 85px;
+    font-weight: 800;
+     color: rgba(255, 255, 255, 0.08);
+    text-transform: uppercase;
+  }
+
+  .right{
+    padding-left: 10px;
+  }
+
+  .service-box{
+    padding: 0px 60px;
+  }
+  .box{
+    margin-bottom: 40px;
+  }
+  .box1, .box2, .box3{
+    margin-right: 0px;
+    
+  }
+
+  .sec-right{
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+
+  .port-left{
+    margin-bottom: 40px;
+  }
+
+ .port-image{
+   padding: 150px;
+ }
+
+ .fot{
+   padding: 0px 20px;
+
+ }
+
+ .contact-mail{
+   font-size: 24px;
+ }
+
+}
