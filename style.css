@@ -32,12 +32,6 @@
 }
 
 
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
 
 
   @-ms-viewport {
@@ -59,7 +53,9 @@
 
 *{
   background: none;
+  
 }
+
 
 body:after {
   position: fixed;
@@ -121,7 +117,7 @@ body:before {
 }
 
 body{
-  margin: 10px;
+  
   font-family: 'Poppins', sans-serif;
  
 }
