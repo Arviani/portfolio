@@ -144,6 +144,43 @@ body{
 
 
 
+
+
+
+
+/* Back To Top */
+
+#btt-i{
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(41, 41, 41, 0.466);
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid rgba(41, 41, 41, 0.466);
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+}
+#back-to-top-btn:hover, #back-to-top-btn:focus {
+  background-color: #333;
+  color: #fff;  
+}
+
+
+
 /* hero */
 
 
@@ -613,36 +650,6 @@ a{
 
 
 
-/* Back To Top */
-
-#btt-i{
-  padding: 0px;
-  margin: 0px;
-  margin-bottom: 5px;
-}
-
-#back-to-top-btn {
-  display: none;
-  position: fixed;
-  bottom: 40px;
-  right: 40px;
-  font-size: 26px;
-  width: 50px;
-  height: 50px;
-  background-color: rgba(41, 41, 41, 0.466);
-  color: #333;
-  cursor: pointer;
-  outline: none;
-  border: 1px solid rgba(41, 41, 41, 0.466);
-  border-radius: 50%;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-property: background-color, color;
-}
-#back-to-top-btn:hover, #back-to-top-btn:focus {
-  background-color: #333;
-  color: #fff;  
-}
 
 @media(max-width: 992px) {
   .container { padding: 20px 100px; }
@@ -742,7 +749,12 @@ a{
 
   }
 
+  .hero-text2{
+    font-size: 40px;
+  }
+
   .about-hed{
+    padding-left: 20px;
     padding-top: 50px;
     font-size: 85px;
     font-weight: 800;
@@ -751,11 +763,11 @@ a{
   }
 
   .right{
-    padding-left: 10px;
+    padding-left: 20px;
   }
 
   .service-box{
-    padding: 0px 60px;
+    padding: 0px 50px;
   }
   .box{
     margin-bottom: 40px;
@@ -775,8 +787,15 @@ a{
   }
 
  .port-image{
+   height: 300px;
    padding: 150px;
+   margin: 0px;
  }
+
+ .img2{
+   margin: 0px 15px;
+ }
+
 
  .fot{
    padding: 0px 20px;
@@ -786,5 +805,18 @@ a{
  .contact-mail{
    font-size: 24px;
  }
+
+ .navbar{
+   margin: 10px 0px;
+ }
+ #back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+
+}
+
+
 
 }

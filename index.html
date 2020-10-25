@@ -32,19 +32,49 @@
 
 	<header class="hed">
 <!-- Navigation -->
-	<nav class="navbar navbar-expand-lg  navbar-custom bg-1" >
+	<nav class="navbar navbar-expand-sm  navbar-custom bg-1 navbar-dark bg-dark" >
+		
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="#"></a> Aravinth</a>
 			</div>
-			<ul class="nav navbar-nav">
+
+			<button class="navbar-toggler" data-togggle="collapse" data-target="#navMenu"> <span class="navbar-toggler-icon"></span>  </button>
+			
+			<div class="collapse navbar-collapse" id="navMenu">
+			<ul class="nav navbar-nav ml-auto">
+
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a href="#" class="nav-link navi">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link navi">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link navi">Service</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link navi">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link navi">Contact</a>
+					</li>
+
+			<!--
 				<li><a class="navi" href="index.html">Home</a></li>
 				<li><a class="navi" href="#about-tag">About</a></li>
 				<li><a class="navi" href="#service-tag">Service</a></li>
 				<li><a class="navi" href="#portfolio-tag">Portfolio</a></li>
 				<li><a class="navi" href="#contact-tag">Contact</a></li>
+			-->
+			
 			</ul>
+
 		</div>
+
+		</div>
+
 	</nav>
 
 	</header>
@@ -187,8 +217,8 @@
 				
 				<!-- Work-2 -->
 
-					
-					<div class="col-md-6 port-right" data-aos="fade-right" data-aos-duration="1200"> 
+					<div class="row flex-column-reverse flex-md-row">				
+					<div class="col-md-6 port-right " data-aos="fade-right" data-aos-duration="1200"> 
 						 <div class="sec-right">
 							 <div class="work-name">Web Designs</div>
 							 <div class="work-tit"> <a class="work-tit" href="#"> Even the all-powerful Pointing has no control</a></div>
@@ -201,13 +231,13 @@
 					</div>
 
 
-					<div class="col-md-6 port-left" data-aos="fade-right" data-aos-duration="1200">  
+					<div class="col-md-6 port-left " data-aos="fade-right" data-aos-duration="1200">  
 						<div class="port-image img2"></div>
 	
 						
 						</div>
 
-
+					</div>	
 
 					<!--Work-3 -->
 				
@@ -273,9 +303,25 @@
 		  AOS.init();
 		</script>
 
+		<script>
+		AOS.init({
+			disable: function() {
+			var maxWidth = 800;
+			return window.innerWidth < maxWidth;
+			}
+		});
+		</script>
+
 		<!-- Back To Scroll Script-->
 		<script src="backtoscroll.js"></script>
 
+		<!-- Optional JavaScript; choose one of the two! -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 </html>
 
