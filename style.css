@@ -127,6 +127,9 @@ body{
 }
 
 
+.navbar-inverse{
+  background: transparent;
+}
 
 
 .navi{
@@ -143,6 +146,24 @@ body{
 }
 
 
+.nav-item{
+  text-decoration: none;
+  color: white;
+  padding: 0px 20px;
+  font-size: 16px;
+}
+
+.nav-item:hover{
+  color:rgb(255, 0, 0);
+  text-decoration:none;
+  cursor:pointer;
+}
+
+#na:hover{
+  color:rgb(255, 0, 0);
+  text-decoration:none;
+  cursor:pointer;
+}
 
 
 
