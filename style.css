@@ -761,6 +761,15 @@ a{
 
 @media all and (min-width: 360px) and (max-width: 640px){
 
+
+  .bg-1{
+    margin-right: 0px;
+    width: 100%;
+    position: relative;
+    
+    }
+    
+
   .bg-1{
   width: 360px;
 
