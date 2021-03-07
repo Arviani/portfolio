@@ -477,7 +477,7 @@ a{
 /* portfolio */
 
 .container-portfolio{
-  padding: 80px 0px;
+  padding: 80px 0px 220px 0px;
 }
 
 
@@ -562,14 +562,31 @@ a{
     margin-bottom: 16px;
 }
 
+
+.view-btn{
+  text-align: center;
+}
+
 .btn-outline-primary:hover{
   background-color: #121212!important;
+  border-color:rgb(196, 5, 5) !important;
+  color: rgb(196, 5, 5)!important;
 }
 
 .btn-outline-primary,  .btn-outline-primary:active, .btn-outline-primary:visited{
-  border-color:rgb(196, 5, 5)!important;
+  border-color: rgba(255, 255, 255, 0.3)!important;
   color: rgb(196, 5, 5);
 
+  color: white !important;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
 }
  
 
@@ -596,11 +613,11 @@ a{
 }
 
 .img1{
-  background-image: url(images/eva-1.png);
+  background-image: url(images/NoQ.png);
 }
 
 .img2{
-  background-image: url(images/work-2.jpg);
+  background-image: url(images/eva-1.png);
 }
 
 .img3{
@@ -611,10 +628,11 @@ a{
 
 
 
+
 /* Footer */
 .fot{
   background: #121212;
-  padding: 130px 0px;
+  padding: 130px 0px 80px 0px;
   text-align: center !important;
 }
 
